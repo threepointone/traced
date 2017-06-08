@@ -1,0 +1,23 @@
+{
+  "name": "traced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "potrace-js": "^0.0.6"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "next",
+    "react-dom": "next",
+    "webpack": "next",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
